@@ -1,0 +1,624 @@
+{
+  "@@locale": "en",
+  "appName": "Keeply",
+  "secureAccess": "Secure access",
+  "localEncryption": "Local encryption",
+  "welcome": "Welcome",
+  "continueText": "Continue",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "close": "Close",
+  "done": "Done",
+  "back": "Back",
+  "next": "Next",
+  "search": "Search",
+  "loading": "Loading...",
+  "retry": "Retry",
+  "yes": "Yes",
+  "no": "No",
+  "ok": "OK",
+  "error": "Error",
+  "success": "Success",
+  "warning": "Warning",
+  "copy": "Copy",
+  "copied": "Copied",
+  "share": "Share",
+  "open": "Open",
+  "remove": "Remove",
+  "create": "Create",
+  "add": "Add",
+  "refresh": "Refresh",
+  "keeplyTitle": "Keeply",
+  "getStarted": "Get Started",
+  "createPin": "Create PIN",
+  "enterPin": "Enter PIN",
+  "confirmPin": "Confirm PIN",
+  "incorrectPin": "Incorrect PIN.",
+  "pinTooWeak": "PIN is too weak.",
+  "unlockVault": "Unlock Vault",
+  "vaultLocked": "Vault Locked",
+  "vaultUnlocked": "Vault Unlocked",
+  "pinTooLong": "PIN is too long.",
+  "invalidPin": "Invalid PIN.",
+  "createPinStep": "Step 1 of 2",
+  "confirmPinStep": "Step 2 of 2",
+  "confirmPinButton": "Confirm PIN",
+  "continueButton": "Continue",
+  "home": "Home",
+  "vault": "Vault",
+  "settings": "Settings",
+  "keeply": "Keeply",
+  "totalItems": "Total Items",
+  "recentlyAdded": "Recently Added",
+  "quickAccess": "Quick Access",
+  "noItemsYet": "No items yet",
+  "passwords": "Passwords",
+  "password": "Password",
+  "addPassword": "Add Password",
+  "editPassword": "Edit Password",
+  "website": "Website",
+  "username": "Username",
+  "email": "Email",
+  "passwordLabel": "Password",
+  "notes": "Notes",
+  "category": "Category",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "weak": "Weak",
+  "medium": "Medium",
+  "strong": "Strong",
+  "veryStrong": "Very Strong",
+  "bookmarks": "Bookmarks",
+  "bookmark": "Bookmark",
+  "addBookmark": "Add Bookmark",
+  "editBookmark": "Edit Bookmark",
+  "title": "Title",
+  "url": "URL",
+  "description": "Description",
+  "launch": "Launch",
+  "openLink": "Open Link",
+  "invalidUrl": "Invalid URL.",
+  "media": "Media",
+  "photos": "Photos",
+  "mediaVault": "Media Vault",
+  "addPhoto": "Add Photo",
+  "addPhotos": "Add Photos",
+  "importPhoto": "Import Photo",
+  "importPhotos": "Import Photos",
+  "deletePhoto": "Delete Photo",
+  "noPhotosYet": "No photos yet",
+  "documents": "Documents",
+  "folders": "Folders",
+  "addDocument": "Add Document",
+  "addFolder": "Add Folder",
+  "importDocument": "Import Document",
+  "importFolder": "Import Folder",
+  "noFoldersYet": "No folders yet",
+  "file": "File",
+  "folder": "Folder",
+  "files": "Files",
+  "selectFile": "Select File",
+  "selectFolder": "Select Folder",
+  "backup": "Backup",
+  "backups": "Backups",
+  "restore": "Restore",
+  "createBackup": "Create Backup",
+  "backupFile": "Backup File",
+  "googleDrive": "Google Drive",
+  "sync": "Sync",
+  "synchronize": "Synchronize",
+  "signedIn": "Signed in",
+  "signedOut": "Signed out",
+  "signOut": "Sign out",
+  "syncNow": "Sync Now",
+  "appearance": "Appearance",
+  "language": "Language",
+  "theme": "Theme",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+  "systemDefault": "System Default",
+  "security": "Security",
+  "privacy": "Privacy",
+  "changePin": "Change PIN",
+  "autoLock": "Auto Lock",
+  "about": "About",
+  "version": "Version",
+  "deleteItem": "Delete Item",
+  "noResults": "No results",
+  "fileNotFound": "File not found.",
+  "developer": "Developer",
+  "encryptedData": "Encrypted data",
+  "mediaLoadError": "Unable to load media.",
+  "mediaEmpty": "No media has been added.",
+  "mediaAdded": "Media added successfully.",
+  "mediaAddedCount": "{savedCount} media items added successfully.",
+  "mediaAddError": "Unable to add media.",
+  "mediaNotFound": "Media file not found.",
+  "mediaOpenError": "Unable to open media.",
+  "saveToGallery": "Save to gallery",
+  "mediaFileMissing": "Media file does not exist.",
+  "galleryPermissionDenied": "Gallery access permission was denied.",
+  "imageSavedToGallery": "Image saved to gallery.",
+  "videoSavedToGallery": "Video saved to gallery.",
+  "galleryUnsupportedType": "This file type cannot be saved to the gallery.",
+  "mediaSaveError": "Unable to save media to the gallery.",
+  "mediaShareError": "Unable to share media.",
+  "deleteMediaConfirm": "Delete media?",
+  "deleteMediaMessage": "“{fileName}” will be permanently deleted from your vault.",
+  "mediaDeleted": "Media deleted.",
+  "mediaDeleteError": "Unable to delete media.",
+  "addMedia": "Add media",
+  "noMediaYet": "No media yet",
+  "mediaEmptyDescription": "Add photos and videos to keep them securely in your vault.",
+  "bookmarksLoadError": "Unable to load bookmarks.",
+  "bookmarkValidationBeforeSave": "Enter at least one field before saving.",
+  "invalidWebsiteUrlInput": "Please enter a valid website URL.",
+  "bookmarkSaved": "Bookmark saved.",
+  "bookmarkSaveError": "Unable to save bookmark.",
+  "deleteBookmarkConfirm": "Delete bookmark?",
+  "deleteBookmarkMessage": "This bookmark will be permanently deleted.",
+  "bookmarkDeleted": "Bookmark deleted.",
+  "bookmarkDeleteError": "Unable to delete bookmark.",
+  "invalidWebsiteUrl": "Invalid website URL.",
+  "websiteOpenError": "Unable to open website.",
+  "linkCopied": "Link copied.",
+  "bookmarksTitle": "Bookmarks",
+  "openWebsite": "Open website",
+  "copyLink": "Copy link",
+  "bookmarkValidation": "Enter at least one field.",
+  "websiteUrlRequired": "Please enter the website URL.",
+  "bookmarkDescription": "Save a website URL with an optional description.",
+  "websiteUrl": "Website URL",
+  "noBookmarksYet": "No bookmarks yet",
+  "bookmarksEmptyDescription": "Save your important websites and links here.",
+  "googleSignInCancelled": "Google sign-in was cancelled.",
+  "googleDriveConnectedMessage": "Connected to Google Drive successfully.\n",
+  "googleSignInFailed": "Google sign-in failed.\n{error}",
+  "googleDriveDisconnected": "Google Drive disconnected",
+  "googleSignOutFailed": "Google sign-out failed.\n{error}",
+  "googleDriveBackupFailed": "Google Drive backup failed.\n{error}",
+  "googleDriveRestoreSuccess": "Keeply data restored from Google Drive successfully.",
+  "googleDriveRestoreFailed": "Restore from Google Drive failed.\n{error}",
+  "googleDriveSyncSuccess": "Google Drive synced successfully.",
+  "createdCount": "Created: {created}",
+  "updatedCount": "Updated: {updated}",
+  "skippedCount": "Skipped: {skipped}",
+  "deletedCount": "Deleted: {deleted}",
+  "examinedCount": "Examined: {examined}",
+  "uploadedDataLabel": "Uploaded data: ",
+  "connectGoogleDrive": "Connect to Google Drive",
+  "googleDriveBackupRequirement": "To use Google Drive backup and restore, ",
+  "googleAccountRequirement": "you must connect your Google account.",
+  "signIn": "Sign in",
+  "restoreBackupConfirm": "Restore backup?",
+  "restoreOnlyMissingPart1": "Restore will only add data from the backup ",
+  "restoreOnlyMissingPart2": "that does not currently exist in Keeply.\n\n",
+  "restoreNoDeletePart1": "No existing data on your device will be deleted or replaced, ",
+  "restoreNoDeletePart2": "Existing items will be skipped automatically.\n\n",
+  "restoreMissingDataSafe": "You can safely continue to add missing data from the backup.",
+  "backupReadError": "Failed to read backup data from Google Drive.\n{error}",
+  "keeplyCloudData": "Keeply data on Google Drive",
+  "noBackupData": "No backup data.",
+  "unnamed": "Unnamed",
+  "unknownSize": "Unknown size",
+  "cloudItemsDeleted": "Deleted {deleted} item(s) from Google Drive.",
+  "cloudDeleteError": "Failed to delete backup data.\n{error}",
+  "deleteCloudBackupConfirm": "Delete cloud backup?",
+  "deleteIncrementalObjectsPart1": "All Keeply Incremental objects will be deleted ",
+  "deleteIncrementalObjectsPart2": "from Google Drive.\n\n",
+  "irreversibleAction": "This action cannot be undone.\n\n",
+  "localDataUnaffected": "Your local data will not be affected.",
+  "deleteAll": "Delete all",
+  "bytesLabel": "{bytes} bytes",
+  "kilobytesLabel": "{value} KB",
+  "megabytesLabel": "{value} MB",
+  "gigabytesLabel": "{value} GB",
+  "backupRestore": "Backup & Restore",
+  "keeplyBackup": "Keeply Backup",
+  "googleDriveConnected": "Google Drive connected",
+  "googleAccount": "Google Account",
+  "connectGoogleAccount": "Connect your Google account",
+  "disconnectAccount": "Disconnect account",
+  "connect": "Connect",
+  "incrementalSyncDescription1": "Only new items are uploaded, changed items are updated, ",
+  "incrementalSyncDescription2": "and unchanged items are skipped, ",
+  "syncing": "Syncing...",
+  "syncBackup": "Sync backup",
+  "readingData": "Reading data...",
+  "viewCloudBackup": "View cloud backup data",
+  "restoring": "Restoring...",
+  "restoreFromGoogleDrive": "Restore from Google Drive",
+  "lastSyncResult": "Last sync result",
+  "manageCloudBackup": "Manage cloud backup",
+  "manageCloudBackupDescription": "You can delete all Keeply objects from ",
+  "deleteCloudBackupProgress": "Google Drive. This does not delete your local data.",
+  "deleteCloudBackupCompletely": "Deleting cloud backup...",
+  "deleteCloudBackupAll": "Delete cloud backup completely",
+  "backupSystem": "Backup system",
+  "backupStorage": "Storage: Google Drive appDataFolder",
+  "backupSystemMode": "System: Incremental Sync",
+  "created": "Created",
+  "updated": "Updated",
+  "skipped": "Skipped",
+  "deleted": "Deleted",
+  "examined": "Examined",
+  "uploadedData": "Uploaded data",
+  "documentsLoadError": "Unable to load documents.",
+  "newFolder": "New folder",
+  "folderName": "Folder name",
+  "folderCreated": "Folder created.",
+  "folderCreateError": "Unable to create folder.",
+  "noFilesAdded": "No files were added.",
+  "documentAdded": "Document added successfully.",
+  "documentsAddedCount": "{savedCount} documents added.",
+  "documentsAddError": "Unable to add documents.",
+  "documentNotFound": "Document not found.",
+  "textFileReadError": "Unable to read this text file.",
+  "noReadableText": "No readable text was found in this document.",
+  "wordReadError": "Unable to read this Word document.",
+  "excelReadError": "Unable to read this Excel document.",
+  "emptySlide": "Empty slide",
+  "powerpointReadError": "Unable to read this PowerPoint document.",
+  "documentOpenError": "Unable to open this document.",
+  "noAppToOpenFile": "No app can open the file",
+  "noAppForFile": "No installed app can open \"$fileName\".",
+  "documentMissing": "Document does not exist.",
+  "documentShareError": "Unable to share document.",
+  "deleteDocumentConfirm": "Delete document?",
+  "deleteDocumentMessage": "“{fileName}” will be permanently deleted from your vault.",
+  "documentDeleted": "Document deleted.",
+  "documentDeleteError": "Unable to delete document.",
+  "folderNotEmpty": "This folder is not empty. Delete its contents first.",
+  "deleteFolderConfirm": "Delete folder?",
+  "deleteFolderMessage": "“{folderName}” will be deleted.",
+  "folderDeleted": "Folder deleted.",
+  "folderDeleteError": "Unable to delete folder.",
+  "folderFileCount": "{folders} folders • {files} files",
+  "imageDisplayError": "Unable to display this image.",
+  "readOnlyDocumentPreview": "Read-only document preview",
+  "noReadableWorksheets": "No readable worksheets were found.",
+  "emptyWorksheet": "The worksheet is empty",
+  "noReadableSlides": "No readable slides were found.",
+  "slideNumber": "Slide {index}",
+  "yourDocuments": "Your documents",
+  "documentsDescription": "Keep your important documents organized\nand securely stored in your vault.",
+  "createFolder": "Create folder",
+  "secure": "Secure",
+  "secureFile": "Secure file",
+  "shareDocument": "Share document",
+  "deleteDocument": "Delete document",
+  "linkOpenError": "Unable to open link",
+  "backupSectionDescription": "Manage backups and restore your data easily",
+  "aboutSectionDescription": "Learn more about Keeply",
+  "versionText": "Keeply • Version 1.0.0",
+  "settingsManagement": "Manage Keeply",
+  "backupEntryDescription": "Create or restore a backup",
+  "aboutDescriptionPart1": "Keeply is a personal app that helps you organize and store passwords, ",
+  "aboutDescriptionPart2": "links, photos, and documents in one place, with the ability to create ",
+  "aboutDescriptionPart3": "backups and restore your data easily.",
+  "developedBy": "Developed by",
+  "developerName": "Laith Taha",
+  "passwordsLoadError": "Unable to load passwords.",
+  "passwordValidationBeforeSave": "Enter at least one value before saving.",
+  "passwordSaved": "Password saved.",
+  "passwordSaveError": "Unable to save password.",
+  "deletePasswordConfirm": "Delete password?",
+  "deletePasswordMessage": "This item will be permanently deleted.",
+  "passwordDeleted": "Password deleted.",
+  "passwordDeleteError": "Unable to delete password.",
+  "enterPassword": "Enter password",
+  "emailOrUsername": "Email or username",
+  "copiedLabel": "Copied {label}",
+  "passwordValidation": "Enter at least one value.",
+  "addKeeplyPassword": "Add keeply password",
+  "passwordFormDescription": "All fields are optional. Enter at least one value.",
+  "noPasswordsYet": "No passwords yet",
+  "passwordsEmptyDescription": "Add your first email, password, or description.",
+  "vaultUnlockError": "Unable to unlock the vault.",
+  "biometricDisabled": "Biometric authentication is not enabled.",
+  "biometricUnavailable": "Biometric authentication is not available.",
+  "biometricFailed": "Biometric authentication failed.",
+  "keeplyOpenError": "Unable to open Keeply.",
+  "pinAccessDescription": "Enter your PIN to access Keeply.",
+  "pinMinimumDigits": "PIN must be at least 6 digits.",
+  "pinMaximumDigits": "PIN cannot contain more than 12 digits.",
+  "strongerPin": "Choose a stronger PIN.",
+  "pinCreationErrorRetry": "Unable to create PIN. Please try again.",
+  "pinMismatchRetry": "PINs do not match. Please try again.",
+  "pinRememberDescription": "Enter your PIN again to make sure you remember it.",
+  "genericError": "Something went wrong",
+  "initializationError": "Unable to initialize Keeply.",
+  "tryAgain": "Try Again",
+  "arabic": "Arabic",
+  "english": "English",
+  "languageDescription": "Choose the app language",
+  "aboutDescription": "Keeply is a personal app that helps you organize and store passwords, links, photos, and documents in one place, with the ability to create backups and restore your data easily.",
+  "@mediaAddedCount": {
+    "placeholders": {
+      "savedCount": {
+        "type": "int"
+      }
+    }
+  },
+  "@mediaDeleteMessage": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@createdCount": {
+    "placeholders": {
+      "created": {
+        "type": "int"
+      }
+    }
+  },
+  "@updatedCount": {
+    "placeholders": {
+      "updated": {
+        "type": "int"
+      }
+    }
+  },
+  "@skippedCount": {
+    "placeholders": {
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletedCount": {
+    "placeholders": {
+      "deleted": {
+        "type": "int"
+      }
+    }
+  },
+  "@examinedCount": {
+    "placeholders": {
+      "examined": {
+        "type": "int"
+      }
+    }
+  },
+  "@cloudItemsDeleted": {
+    "placeholders": {
+      "deleted": {
+        "type": "int"
+      }
+    }
+  },
+  "@bytesLabel": {
+    "placeholders": {
+      "bytes": {
+        "type": "int"
+      }
+    }
+  },
+  "@kilobytesLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@megabytesLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@gigabytesLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@documentsAddedCount": {
+    "placeholders": {
+      "savedCount": {
+        "type": "int"
+      }
+    }
+  },
+  "@noAppForFile": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@documentDeleteMessage": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFolderMessage": {
+    "placeholders": {
+      "folderName": {
+        "type": "String"
+      }
+    }
+  },
+  "@folderFileCount": {
+    "placeholders": {
+      "folders": {
+        "type": "int"
+      },
+      "files": {
+        "type": "int"
+      }
+    }
+  },
+  "@slideNumber": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "@copiedLabel": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteMediaMessage": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteDocumentMessage": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleSignInFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleSignOutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleDriveBackupFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleDriveRestoreFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@backupReadError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@cloudDeleteError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomeSubtitle": "Your private vault, designed to protect your data.",
+  "privateByDesign": "Private by design",
+  "privateByDesignDescription": "Your sensitive data stays encrypted on your device.",
+  "secureAccessDescription": "Use your device authentication to access your vault.",
+  "offlineFirst": "Offline first",
+  "offlineFirstDescription": "Your vault is available locally without requiring internet.",
+  "keeplySubtitle": "Your secure digital vault",
+  "welcomeDescription": "Secure your passwords, files, photos, and bookmarks in one place.",
+  "yourDataYourControl": "Your data, your control",
+  "encryptedLocally": "Your local data is encrypted.",
+  "createPinTitle": "Create a PIN to protect your vault",
+  "createPinDescription": "Use a 6-digit PIN that is easy for you to remember and hard for others to guess.",
+  "confirmPinTitle": "Confirm your PIN",
+  "confirmPinDescription": "Enter your PIN again to make sure it is correct.",
+  "pinDoesNotMatch": "The PINs do not match.",
+  "pinCreatedSuccessfully": "PIN created successfully.",
+  "pinCannotBeRepeated": "Do not use the same digit repeatedly.",
+  "pinCannotBeSequential": "Do not use a simple sequence such as 123456.",
+  "useBiometrics": "Use biometrics",
+  "biometricAuthentication": "Biometric authentication",
+  "fingerprintOrFace": "Use fingerprint or face recognition to unlock your vault.",
+  "pinTooShort": "PIN is too short.",
+  "unlockFailed": "Failed to unlock the vault.",
+  "createPinFailed": "Failed to create PIN.",
+  "pinMismatch": "PINs do not match.",
+  "createPinSubtitle": "Create a 6-digit PIN to protect your vault.",
+  "confirmPinSubtitle": "Re-enter your PIN to make sure it is correct.",
+  "weakPinWarning": "This PIN is weak. Choose a stronger PIN.",
+  "yourKeeply": "Your secure digital vault",
+  "addFirstItem": "Add your first item to your vault.",
+  "passwordsAndEmails": "Passwords & Emails",
+  "generatePassword": "Generate Strong Password",
+  "passwordGenerated": "Strong password generated.",
+  "passwordStrength": "Password strength",
+  "loginCredentials": "Login Credentials",
+  "docsAndFolders": "Docs & Folders",
+  "noDocumentsYet": "No documents yet",
+  "backupAndRestore": "Backup & Restore",
+  "restoreBackup": "Restore Backup",
+  "backupCreatedSuccessfully": "Backup created successfully.",
+  "backupRestoredSuccessfully": "Backup restored successfully.",
+  "backupFailed": "Backup creation failed.",
+  "restoreFailed": "Backup restoration failed.",
+  "selectBackupFile": "Select Backup File",
+  "invalidBackupFile": "Invalid backup file.",
+  "backupFileExtension": "Keeply backup files must use the .svb extension.",
+  "restoreWarning": "Restoring will replace the current data with the data contained in the backup.",
+  "confirmRestore": "Are you sure you want to restore this backup?",
+  "backupToGoogleDrive": "Backup to Google Drive",
+  "cloudActions": "Cloud actions",
+  "uploadToCloud": "Upload to cloud",
+  "downloadFromCloud": "Download from cloud",
+  "selectBackupSections": "Select sections",
+  "selectRestoreSections": "Select sections to restore",
+  "noInternetConnection": "No internet connection. Please connect to the internet and try again",
+  "backupAllSections": "All sections",
+  "cloudActionConfirmRestore": "Download this section from Google Drive? Your existing local data will not be deleted or replaced.",
+  "sectionUploadedSuccessfully": "{section} uploaded successfully.",
+  "sectionDownloadedSuccessfully": "{section} downloaded successfully.",
+  "noCloudSectionData": "No cloud data was found for {section}.",
+  "signInWithGoogle": "Sign in with Google",
+  "disconnectGoogleDrive": "Disconnect Google Drive",
+  "syncSuccessful": "Synchronization completed successfully.",
+  "syncFailed": "Synchronization failed.",
+  "biometricLogin": "Biometric Login",
+  "deleteItemConfirmation": "Are you sure you want to delete this item? This action cannot be undone.",
+  "deletePasswordConfirmation": "Are you sure you want to delete this password?",
+  "deleteBookmarkConfirmation": "Are you sure you want to delete this bookmark?",
+  "deletePhotoConfirmation": "Are you sure you want to delete this photo?",
+  "deleteDocumentConfirmation": "Are you sure you want to delete this document?",
+  "requiredField": "This field is required.",
+  "invalidEmail": "Invalid email address.",
+  "invalidPassword": "Invalid password.",
+  "invalidInput": "Invalid input.",
+  "nothingFound": "Nothing found",
+  "somethingWentWrong": "Something went wrong.",
+  "unableToSave": "Unable to save data.",
+  "unableToDelete": "Unable to delete data.",
+  "unableToOpen": "Unable to open item.",
+  "permissionDenied": "Permission denied.",
+  "storageError": "Storage error.",
+  "encryptionError": "Encryption error.",
+  "decryptionError": "Decryption error.",
+  "vaultDescription": "Store all your data in one place, from emails and passwords to files and photos.",
+  "googleDriveBackup": "Back up your data to Google Drive and restore it whenever you need.",
+  "privateVault": "Your private vault for securely storing your data, even without an internet connection.",
+  "secureOfflineStorage": "Secure offline storage",
+  "protectedByEncryption": "Protected by encryption",
+  "allYourDataIsEncrypted": "All your data is stored encrypted."
+,
+  "@sectionUploadedSuccessfully": {"placeholders": {"section": {"type": "String"}}},
+  "@sectionDownloadedSuccessfully": {"placeholders": {"section": {"type": "String"}}},
+  "@noCloudSectionData": {"placeholders": {"section": {"type": "String"}}}
+}

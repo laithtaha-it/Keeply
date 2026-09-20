@@ -1,0 +1,38 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS / macOS generated files
+ios/Flutter/ephemeral/
+macos/Flutter/ephemeral/
+**/.last_build_id
+
+# Generated / build artifacts
+*.log
+*.class
+*.pyc
+*.swp
+*.symbols
+*.map.json

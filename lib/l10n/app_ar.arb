@@ -1,0 +1,624 @@
+{
+  "@@locale": "ar",
+  "appName": "Keeply",
+  "secureAccess": "حفظ نسخة احتياطية ",
+  "localEncryption": "تشفير محلي",
+  "welcome": "مرحبًا بك",
+  "continueText": "متابعة",
+  "cancel": "إلغاء",
+  "confirm": "تأكيد",
+  "save": "حفظ",
+  "delete": "حذف",
+  "edit": "تعديل",
+  "close": "إغلاق",
+  "done": "تم",
+  "back": "رجوع",
+  "next": "التالي",
+  "search": "بحث",
+  "loading": "جارٍ التحميل...",
+  "retry": "إعادة المحاولة",
+  "yes": "نعم",
+  "no": "لا",
+  "ok": "حسنًا",
+  "error": "خطأ",
+  "success": "تم بنجاح",
+  "warning": "تحذير",
+  "copy": "نسخ",
+  "copied": "تم النسخ",
+  "share": "مشاركة",
+  "open": "فتح",
+  "remove": "إزالة",
+  "create": "إنشاء",
+  "add": "إضافة",
+  "refresh": "تحديث",
+  "keeplyTitle": "Keeply",
+  "getStarted": "ابدأ الآن",
+  "createPin": "إنشاء رمز PIN",
+  "enterPin": "أدخل رمز PIN",
+  "confirmPin": "تأكيد رمز PIN",
+  "incorrectPin": "رمز PIN غير صحيح.",
+  "pinTooWeak": "رمز PIN ضعيف.",
+  "unlockVault": "فتح الخزنة",
+  "vaultLocked": "الخزنة مقفلة",
+  "vaultUnlocked": "تم فتح الخزنة",
+  "pinTooLong": "رمز PIN طويل جدًا.",
+  "invalidPin": "رمز PIN غير صالح.",
+  "createPinStep": "الخطوة 1 من 2",
+  "confirmPinStep": "الخطوة 2 من 2",
+  "confirmPinButton": "تأكيد  ",
+  "continueButton": "متابعة",
+  "home": "الرئيسية",
+  "vault": "",
+  "settings": "الإعدادات",
+  "keeply": "Keeply",
+  "totalItems": "إجمالي العناصر",
+  "recentlyAdded": "أضيفت مؤخرًا",
+  "quickAccess": "وصول سريع",
+  "noItemsYet": "لا توجد عناصر بعد",
+  "passwords": "كلمات المرور",
+  "password": "كلمة المرور",
+  "addPassword": "إضافة كلمة مرور",
+  "editPassword": "تعديل كلمة المرور",
+  "website": "الموقع",
+  "username": "اسم المستخدم",
+  "email": "البريد الإلكتروني",
+  "passwordLabel": "كلمة المرور",
+  "notes": "ملاحظات",
+  "category": "الفئة",
+  "showPassword": "إظهار كلمة المرور",
+  "hidePassword": "إخفاء كلمة المرور",
+  "weak": "ضعيفة",
+  "medium": "متوسطة",
+  "strong": "قوية",
+  "veryStrong": "قوية جدًا",
+  "bookmarks": "الروابط",
+  "bookmark": "رابط",
+  "addBookmark": "إضافة رابط",
+  "editBookmark": "تعديل الرابط",
+  "title": "العنوان",
+  "url": "الرابط",
+  "description": "الوصف",
+  "launch": "فتح الرابط",
+  "openLink": "فتح الرابط",
+  "invalidUrl": "الرابط غير صالح.",
+  "media": "الوسائط",
+  "photos": "الصور",
+  "mediaVault": "خزنة الوسائط",
+  "addPhoto": "إضافة صورة",
+  "addPhotos": "إضافة صور",
+  "importPhoto": "استيراد صورة",
+  "importPhotos": "استيراد صور",
+  "deletePhoto": "حذف الصورة",
+  "noPhotosYet": "لا توجد صور بعد",
+  "documents": "المستندات",
+  "folders": "المجلدات",
+  "addDocument": "إضافة مستند",
+  "addFolder": "إضافة مجلد",
+  "importDocument": "استيراد مستند",
+  "importFolder": "استيراد مجلد",
+  "noFoldersYet": "لا توجد مجلدات بعد",
+  "file": "ملف",
+  "folder": "مجلد",
+  "files": "ملفات",
+  "selectFile": "اختيار ملف",
+  "selectFolder": "اختيار مجلد",
+  "backup": "النسخ الاحتياطي",
+  "backups": "النسخ الاحتياطية",
+  "restore": "استعادة",
+  "createBackup": "إنشاء نسخة احتياطية",
+  "backupFile": "ملف النسخة الاحتياطية",
+  "googleDrive": "Google Drive",
+  "sync": "المزامنة",
+  "synchronize": "مزامنة",
+  "signedIn": "تم تسجيل الدخول",
+  "signedOut": "تم تسجيل الخروج",
+  "signOut": "تسجيل الخروج",
+  "syncNow": "مزامنة الآن",
+  "appearance": "المظهر",
+  "language": "اللغة",
+  "theme": "السمة",
+  "darkMode": "الوضع الداكن",
+  "lightMode": "الوضع الفاتح",
+  "systemDefault": "إعداد النظام",
+  "security": "الأمان",
+  "privacy": "الخصوصية",
+  "changePin": "تغيير رمز PIN",
+  "autoLock": "القفل التلقائي",
+  "about": "حول التطبيق",
+  "version": "الإصدار",
+  "deleteItem": "حذف العنصر",
+  "noResults": "لا توجد نتائج",
+  "fileNotFound": "الملف غير موجود.",
+  "developer": "المطور",
+  "encryptedData": "بيانات مشفرة",
+  "mediaLoadError": "تعذر تحميل الوسائط.",
+  "mediaEmpty": "لم تتم إضافة أي وسائط.",
+  "mediaAdded": "تمت إضافة الوسائط بنجاح.",
+  "mediaAddedCount": "تمت إضافة {savedCount} وسائط بنجاح.",
+  "mediaAddError": "تعذر إضافة الوسائط.",
+  "mediaNotFound": "تعذر العثور على ملف الوسائط.",
+  "mediaOpenError": "تعذر فتح الوسائط.",
+  "saveToGallery": "حفظ في المعرض",
+  "mediaFileMissing": "ملف الوسائط غير موجود.",
+  "galleryPermissionDenied": "تم رفض إذن الوصول إلى المعرض.",
+  "imageSavedToGallery": "تم حفظ الصورة في المعرض.",
+  "videoSavedToGallery": "تم حفظ الفيديو في المعرض.",
+  "galleryUnsupportedType": "لا يمكن حفظ هذا النوع من الملفات في المعرض.",
+  "mediaSaveError": "تعذر حفظ الوسائط في المعرض.",
+  "mediaShareError": "تعذر مشاركة الوسائط.",
+  "deleteMediaConfirm": "حذف الوسائط؟",
+  "deleteMediaMessage": "سيتم حذف «{fileName}» نهائيًا من خزنتك.",
+  "mediaDeleted": "تم حذف الوسائط.",
+  "mediaDeleteError": "تعذر حذف الوسائط.",
+  "addMedia": "إضافة وسائط",
+  "noMediaYet": "لا توجد وسائط بعد",
+  "mediaEmptyDescription": "أضف الصور ومقاطع الفيديو للاحتفاظ بها بشكل آمن داخل خزنتك.",
+  "bookmarksLoadError": "تعذر تحميل الإشارات المرجعية.",
+  "bookmarkValidationBeforeSave": "أدخل حقلًا واحدًا على الأقل قبل الحفظ.",
+  "invalidWebsiteUrlInput": "يرجى إدخال رابط موقع صالح.",
+  "bookmarkSaved": "تم حفظ الإشارة المرجعية.",
+  "bookmarkSaveError": "تعذر حفظ الإشارة المرجعية.",
+  "deleteBookmarkConfirm": "حذف الإشارة المرجعية؟",
+  "deleteBookmarkMessage": "سيتم حذف هذه الإشارة المرجعية نهائيًا.",
+  "bookmarkDeleted": "تم حذف الإشارة المرجعية.",
+  "bookmarkDeleteError": "تعذر حذف الإشارة المرجعية.",
+  "invalidWebsiteUrl": "رابط الموقع غير صالح.",
+  "websiteOpenError": "تعذر فتح الموقع.",
+  "linkCopied": "تم نسخ الرابط.",
+  "bookmarksTitle": "الإشارات المرجعية",
+  "openWebsite": "فتح الموقع",
+  "copyLink": "نسخ الرابط",
+  "bookmarkValidation": "أدخل حقلًا واحدًا على الأقل.",
+  "websiteUrlRequired": "يرجى إدخال رابط الموقع.",
+  "bookmarkDescription": "احفظ رابط موقع مع وصف اختياري.",
+  "websiteUrl": "رابط الموقع",
+  "noBookmarksYet": "لا توجد إشارات مرجعية بعد",
+  "bookmarksEmptyDescription": "احفظ مواقعك وروابطك المهمة هنا.",
+  "googleSignInCancelled": "تم إلغاء تسجيل الدخول إلى Google.",
+  "googleDriveConnectedMessage": "تم الاتصال بـ Google Drive بنجاح.\\n",
+  "googleSignInFailed": "فشل تسجيل الدخول إلى Google.\\n{error}",
+  "googleDriveDisconnected": "Google Drive غير متصل",
+  "googleSignOutFailed": "فشل تسجيل الخروج من Google.\\n{error}",
+  "googleDriveBackupFailed": "فشل النسخ الاحتياطي إلى Google Drive.\\n{error}",
+  "googleDriveRestoreSuccess": "تمت استعادة بيانات Keeply من Google Drive بنجاح.",
+  "googleDriveRestoreFailed": "فشلت الاستعادة من Google Drive.\\n{error}",
+  "googleDriveSyncSuccess": "تمت مزامنة Google Drive بنجاح.",
+  "createdCount": "تم إنشاء: {created}",
+  "updatedCount": "تم تحديث: {updated}",
+  "skippedCount": "تم تخطيه: {skipped}",
+  "deletedCount": "تم حذفه: {deleted}",
+  "examinedCount": "تم فحصه: {examined}",
+  "uploadedDataLabel": "البيانات المرفوعة: ",
+  "connectGoogleDrive": "الاتصال بـ Google Drive",
+  "googleDriveBackupRequirement": "لاستخدام النسخ الاحتياطي والاستعادة عبر Google Drive، ",
+  "googleAccountRequirement": "يجب عليك الاتصال بحساب Google الخاص بك.",
+  "signIn": "تسجيل الدخول",
+  "restoreBackupConfirm": "استعادة النسخة الاحتياطية؟",
+  "restoreOnlyMissingPart1": "ستضيف الاستعادة فقط البيانات الموجودة في النسخة الاحتياطية ",
+  "restoreOnlyMissingPart2": "والتي لا توجد حاليًا في Keeply.\\n\\n",
+  "restoreNoDeletePart1": "لن يتم حذف أو استبدال أي بيانات موجودة على جهازك، ",
+  "restoreNoDeletePart2": "والعناصر الموجودة مسبقًا سيتم تخطيها تلقائيًا.\\n\\n",
+  "restoreMissingDataSafe": "يمكنك المتابعة بأمان لإضافة البيانات المفقودة من النسخة الاحتياطية.",
+  "backupReadError": "فشل قراءة بيانات النسخ الاحتياطية من Google Drive.\\n{error}",
+  "keeplyCloudData": "بيانات Keeply على Google Drive",
+  "noBackupData": "لا توجد بيانات احتياطية.",
+  "unnamed": "بدون اسم",
+  "unknownSize": "الحجم غير معروف",
+  "cloudItemsDeleted": "تم حذف {deleted} عنصر من Google Drive.",
+  "cloudDeleteError": "فشل حذف بيانات النسخة الاحتياطية.\\n{error}",
+  "deleteCloudBackupConfirm": "حذف النسخة السحابية؟",
+  "deleteIncrementalObjectsPart1": "سيتم حذف جميع كائنات Keeply Incremental ",
+  "deleteIncrementalObjectsPart2": "من Google Drive.\\n\\n",
+  "irreversibleAction": "هذا الإجراء لا يمكن التراجع عنه.\\n\\n",
+  "localDataUnaffected": "بياناتك المحلية لن تتأثر.",
+  "deleteAll": "حذف الكل",
+  "bytesLabel": "{bytes} بايت",
+  "kilobytesLabel": "{value} كيلوبايت",
+  "megabytesLabel": "{value} ميجابايت",
+  "gigabytesLabel": "{value} جيجابايت",
+  "backupRestore": "النسخ الاحتياطي والاستعادة",
+  "keeplyBackup": "النسخ الاحتياطي لـ Keeply",
+  "googleDriveConnected": "Google Drive متصل",
+  "googleAccount": "حساب Google",
+  "connectGoogleAccount": "قم بالاتصال بحساب Google الخاص بك",
+  "disconnectAccount": "فصل الحساب",
+  "connect": "اتصال",
+  "incrementalSyncDescription1": "يتم رفع العناصر الجديدة فقط، وتحديث العناصر ",
+  "incrementalSyncDescription2": "التي تغيرت، وتخطي العناصر التي لم تتغير، ",
+  "syncing": "جارٍ المزامنة...",
+  "syncBackup": "مزامنة النسخة الاحتياطية",
+  "readingData": "جارٍ قراءة البيانات...",
+  "viewCloudBackup": "عرض بيانات النسخة السحابية",
+  "restoring": "جارٍ الاستعادة...",
+  "restoreFromGoogleDrive": "استعادة من Google Drive",
+  "lastSyncResult": "نتيجة آخر مزامنة",
+  "manageCloudBackup": "إدارة النسخة السحابية",
+  "manageCloudBackupDescription": "يمكنك حذف جميع كائنات Keeply من ",
+  "deleteCloudBackupProgress": "Google Drive. هذا لا يحذف بياناتك المحلية.",
+  "deleteCloudBackupCompletely": "جارٍ حذف النسخة السحابية...",
+  "deleteCloudBackupAll": "حذف النسخة السحابية بالكامل",
+  "backupSystem": "نظام النسخ الاحتياطي",
+  "backupStorage": "التخزين: Google Drive appDataFolder",
+  "backupSystemMode": "النظام: Incremental Sync",
+  "created": "تم إنشاء",
+  "updated": "تم تحديث",
+  "skipped": "تم تخطيه",
+  "deleted": "تم حذفه",
+  "examined": "تم فحصه",
+  "uploadedData": "البيانات المرفوعة",
+  "documentsLoadError": "تعذر تحميل المستندات.",
+  "newFolder": "مجلد جديد",
+  "folderName": "اسم المجلد",
+  "folderCreated": "تم إنشاء المجلد.",
+  "folderCreateError": "تعذر إنشاء المجلد.",
+  "noFilesAdded": "لم تتم إضافة أي ملفات.",
+  "documentAdded": "تمت إضافة المستند بنجاح.",
+  "documentsAddedCount": "تمت إضافة {savedCount} مستندات.",
+  "documentsAddError": "تعذر إضافة المستندات.",
+  "documentNotFound": "تعذر العثور على المستند.",
+  "textFileReadError": "تعذر قراءة هذا الملف النصي.",
+  "noReadableText": "لم يتم العثور على نص قابل للقراءة في هذا المستند.",
+  "wordReadError": "تعذر قراءة مستند Word هذا.",
+  "excelReadError": "تعذر قراءة مستند Excel هذا.",
+  "emptySlide": "شريحة فارغة",
+  "powerpointReadError": "تعذر قراءة مستند PowerPoint هذا.",
+  "documentOpenError": "تعذر فتح هذا المستند.",
+  "noAppToOpenFile": "لا يوجد تطبيق لفتح الملف",
+  "noAppForFile": "لا يوجد تطبيق مثبت يمكنه فتح \"$fileName\".",
+  "documentMissing": "المستند غير موجود.",
+  "documentShareError": "تعذر مشاركة المستند.",
+  "deleteDocumentConfirm": "حذف المستند؟",
+  "deleteDocumentMessage": "سيتم حذف “{fileName}” نهائيًا من خزنتك.",
+  "documentDeleted": "تم حذف المستند.",
+  "documentDeleteError": "تعذر حذف المستند.",
+  "folderNotEmpty": "هذا المجلد غير فارغ. احذف محتوياته أولًا.",
+  "deleteFolderConfirm": "حذف المجلد؟",
+  "deleteFolderMessage": "سيتم حذف “{folderName}”.",
+  "folderDeleted": "تم حذف المجلد.",
+  "folderDeleteError": "تعذر حذف المجلد.",
+  "folderFileCount": "{folders} مجلد • {files} ملف",
+  "imageDisplayError": "تعذر عرض هذه الصورة.",
+  "readOnlyDocumentPreview": "معاينة المستند للقراءة فقط",
+  "noReadableWorksheets": "لم يتم العثور على أوراق عمل قابلة للقراءة.",
+  "emptyWorksheet": "ورقة العمل فارغة",
+  "noReadableSlides": "لم يتم العثور على شرائح قابلة للقراءة.",
+  "slideNumber": "الشريحة {index}",
+  "yourDocuments": "مستنداتك",
+  "documentsDescription": "احتفظ بمستنداتك المهمة منظمة\\nومخزنة بأمان داخل خزنتك.",
+  "createFolder": "إنشاء مجلد",
+  "secure": "آمن",
+  "secureFile": "ملف آمن",
+  "shareDocument": "مشاركة المستند",
+  "deleteDocument": "حذف المستند",
+  "linkOpenError": "تعذر فتح الرابط",
+  "backupSectionDescription": "إدارة النسخ الاحتياطية واستعادة بياناتك بسهولة",
+  "aboutSectionDescription": "تعرف أكثر على Keeply",
+  "versionText": "Keeply • الإصدار 1.0.0",
+  "settingsManagement": "إدارة Keeply",
+  "backupEntryDescription": "إنشاء أو استعادة نسخة احتياطية",
+  "aboutDescriptionPart1": "Keeply هو تطبيق شخصي يساعدك على تنظيم وحفظ كلمات المرور، ",
+  "aboutDescriptionPart2": "الروابط، الصور والمستندات في مكان واحد، مع إمكانية إنشاء ",
+  "aboutDescriptionPart3": "نسخ احتياطية واستعادة بياناتك بسهولة.",
+  "developedBy": "تم تطوير التطبيق بواسطة",
+  "developerName": "ليث طه",
+  "passwordsLoadError": "تعذر تحميل كلمات المرور.",
+  "passwordValidationBeforeSave": "أدخل قيمة واحدة على الأقل قبل الحفظ.",
+  "passwordSaved": "تم حفظ كلمة المرور.",
+  "passwordSaveError": "تعذر حفظ كلمة المرور.",
+  "deletePasswordConfirm": "حذف كلمة المرور؟",
+  "deletePasswordMessage": "سيتم حذف هذا العنصر نهائيًا.",
+  "passwordDeleted": "تم حذف كلمة المرور.",
+  "passwordDeleteError": "تعذر حذف كلمة المرور.",
+  "enterPassword": "إدخال كلمة مرور",
+  "emailOrUsername": "البريد الإلكتروني أو اسم المستخدم",
+  "copiedLabel": "تم نسخ {label}",
+  "passwordValidation": "أدخل قيمة واحدة على الأقل.",
+  "addKeeplyPassword": "إضافة keeply مرور",
+  "passwordFormDescription": "جميع الحقول اختيارية. أدخل قيمة واحدة على الأقل.",
+  "noPasswordsYet": "لا توجد كلمات مرور بعد",
+  "passwordsEmptyDescription": "أضف أول بريد إلكتروني أو كلمة مرور أو وصف.",
+  "vaultUnlockError": "تعذر فتح الخزنة.",
+  "biometricDisabled": "المصادقة البيومترية غير مفعلة.",
+  "biometricUnavailable": "المصادقة البيومترية غير متاحة.",
+  "biometricFailed": "فشلت المصادقة البيومترية.",
+  "keeplyOpenError": "تعذر فتح Keeply.",
+  "pinAccessDescription": "أدخل رمز PIN للوصول إلى Keeply.",
+  "pinMinimumDigits": "يجب أن يتكون رمز PIN من 6 أرقام على الأقل.",
+  "pinMaximumDigits": "لا يمكن أن يحتوي رمز PIN على أكثر من 12 رقمًا.",
+  "strongerPin": "اختر رمز PIN أقوى.",
+  "pinCreationErrorRetry": "تعذر إنشاء رمز PIN. حاول مرة أخرى.",
+  "pinMismatchRetry": "رمزا PIN غير متطابقين. حاول مرة أخرى.",
+  "pinRememberDescription": "أدخل رمز PIN مرة أخرى للتأكد من أنك تتذكره.",
+  "genericError": "حدث خطأ ما",
+  "initializationError": "تعذر تهيئة Keeply.",
+  "tryAgain": "إعادة المحاولة",
+  "arabic": "العربية",
+  "english": "الإنجليزية",
+  "languageDescription": "اختر لغة التطبيق",
+  "aboutDescription": "Keeply هو تطبيق شخصي يساعدك على تنظيم وحفظ كلمات المرور، الروابط، الصور والمستندات في مكان واحد، مع إمكانية إنشاء نسخ احتياطية واستعادة بياناتك بسهولة.",
+  "@mediaAddedCount": {
+    "placeholders": {
+      "savedCount": {
+        "type": "int"
+      }
+    }
+  },
+  "@mediaDeleteMessage": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@createdCount": {
+    "placeholders": {
+      "created": {
+        "type": "int"
+      }
+    }
+  },
+  "@updatedCount": {
+    "placeholders": {
+      "updated": {
+        "type": "int"
+      }
+    }
+  },
+  "@skippedCount": {
+    "placeholders": {
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletedCount": {
+    "placeholders": {
+      "deleted": {
+        "type": "int"
+      }
+    }
+  },
+  "@examinedCount": {
+    "placeholders": {
+      "examined": {
+        "type": "int"
+      }
+    }
+  },
+  "@cloudItemsDeleted": {
+    "placeholders": {
+      "deleted": {
+        "type": "int"
+      }
+    }
+  },
+  "@bytesLabel": {
+    "placeholders": {
+      "bytes": {
+        "type": "int"
+      }
+    }
+  },
+  "@kilobytesLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@megabytesLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@gigabytesLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@documentsAddedCount": {
+    "placeholders": {
+      "savedCount": {
+        "type": "int"
+      }
+    }
+  },
+  "@noAppForFile": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@documentDeleteMessage": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFolderMessage": {
+    "placeholders": {
+      "folderName": {
+        "type": "String"
+      }
+    }
+  },
+  "@folderFileCount": {
+    "placeholders": {
+      "folders": {
+        "type": "int"
+      },
+      "files": {
+        "type": "int"
+      }
+    }
+  },
+  "@slideNumber": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "@copiedLabel": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteMediaMessage": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteDocumentMessage": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleSignInFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleSignOutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleDriveBackupFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleDriveRestoreFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@backupReadError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@cloudDeleteError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomeSubtitle": "خزنتك الخاصة، مصممة لحماية بياناتك.",
+  "privateByDesign": "خصوصية من االبيانات",
+  "privateByDesignDescription": "بياناتك الحساسة تبقى مشفرة على جهازك.",
+  "secureAccessDescription": "احفظ نسخة احتياطية من بياناتك على Google Drive واستعدها عند الحاجة",
+  "offlineFirst": "جميع بياناتك في مكان واحد",
+  "offlineFirstDescription": "خزّن جميع بياناتك في مكان واحد، من الإيميلات وكلمات المرور إلى الملفات والصور.",
+  "keeplySubtitle": "خزنتك الرقمية الآمنة",
+  "welcomeDescription": "احفظ كلمات المرور والملفات والصور والروابط بأمان في مكان واحد.",
+  "yourDataYourControl": "بياناتك تحت سيطرتك",
+  "encryptedLocally": "بياناتك المحلية مشفرة.",
+  "createPinTitle": "أنشئ رمز لحماية خزنتك",
+  "createPinDescription": "استخدم رمزًا من 6 أرقام يسهل عليك تذكره ويصعب على الآخرين تخمينه.",
+  "confirmPinTitle": "أكد رمز الخاص بك",
+  "confirmPinDescription": "أدخل ارمز مرة أخرى للتأكد من صحته.",
+  "pinDoesNotMatch": "رمزا PIN غير متطابقين.",
+  "pinCreatedSuccessfully": "تم إنشاء رمز بنجاح.",
+  "pinCannotBeRepeated": "لا تستخدم أرقامًا متكررة بالكامل.",
+  "pinCannotBeSequential": "لا تستخدم تسلسلًا بسيطًا مثل 123456.",
+  "useBiometrics": "استخدام المصادقة الحيوية",
+  "biometricAuthentication": "المصادقة الحيوية",
+  "fingerprintOrFace": "استخدم بصمة الإصبع أو التعرف على الوجه لفتح خزنتك.",
+  "pinTooShort": "رمز PIN قصير جدًا.",
+  "unlockFailed": "فشل فتح الخزنة.",
+  "createPinFailed": "فشل إنشاء رمز PIN.",
+  "pinMismatch": "رموز غير متطابقة.",
+  "createPinSubtitle": "أنشئ رمز  مكونًا من 6 أرقام لحماية خزنتك.",
+  "confirmPinSubtitle": "أعد إدخال رمز للتأكد من صحته.",
+  "weakPinWarning": "هذا الرمز ضعيف. اختر رمز PIN أكثر أمانًا.",
+  "yourKeeply": "خزنتك الرقمية الآمنة",
+  "addFirstItem": "أضف أول عنصر إلى خزنتك.",
+  "passwordsAndEmails": "كلمات المرور والبريد الإلكتروني",
+  "generatePassword": "إنشاء كلمة مرور قوية",
+  "passwordGenerated": "تم إنشاء كلمة مرور قوية.",
+  "passwordStrength": "قوة كلمة المرور",
+  "loginCredentials": "بيانات تسجيل الدخول",
+  "docsAndFolders": "المستندات والمجلدات",
+  "noDocumentsYet": "لا توجد مستندات بعد",
+  "backupAndRestore": "النسخ الاحتياطي والاستعادة",
+  "restoreBackup": "استعادة نسخة احتياطية",
+  "backupCreatedSuccessfully": "تم إنشاء النسخة الاحتياطية بنجاح.",
+  "backupRestoredSuccessfully": "تمت استعادة النسخة الاحتياطية بنجاح.",
+  "backupFailed": "فشل إنشاء النسخة الاحتياطية.",
+  "restoreFailed": "فشلت استعادة النسخة الاحتياطية.",
+  "selectBackupFile": "اختر ملف النسخة الاحتياطية",
+  "invalidBackupFile": "ملف النسخة الاحتياطية غير صالح.",
+  "backupFileExtension": "ملف Keeply يجب أن يكون بصيغة .svb",
+  "restoreWarning": "ستؤدي الاستعادة إلى استبدال البيانات الحالية بالبيانات الموجودة في النسخة الاحتياطية.",
+  "confirmRestore": "هل أنت متأكد أنك تريد استعادة هذه النسخة الاحتياطية؟",
+  "backupToGoogleDrive": "نسخ احتياطي إلى Google Drive",
+  "cloudActions": "إجراءات السحابة",
+  "uploadToCloud": "رفع إلى السحابة",
+  "downloadFromCloud": "تنزيل من السحابة",
+  "selectBackupSections": "اختر الأقسام",
+  "selectRestoreSections": "اختر الأقسام التي تريد استعادتها",
+  "noInternetConnection": "لا يوجد اتصال بالإنترنت. يرجى الاتصال بالإنترنت والمحاولة مرة أخرى",
+  "backupAllSections": "جميع الأقسام",
+  "cloudActionConfirmRestore": "هل تريد تنزيل هذا القسم من Google Drive؟ لن يتم حذف أو استبدال بياناتك المحلية الحالية.",
+  "sectionUploadedSuccessfully": "تم رفع {section} بنجاح.",
+  "sectionDownloadedSuccessfully": "تم تنزيل {section} بنجاح.",
+  "noCloudSectionData": "لا توجد بيانات سحابية للقسم {section}.",
+  "signInWithGoogle": "تسجيل الدخول باستخدام Google",
+  "disconnectGoogleDrive": "فصل Google Drive",
+  "syncSuccessful": "تمت المزامنة بنجاح.",
+  "syncFailed": "فشلت المزامنة.",
+  "biometricLogin": "تسجيل الدخول بالمصادقة الحيوية",
+  "deleteItemConfirmation": "هل أنت متأكد أنك تريد حذف هذا العنصر؟ لا يمكن التراجع عن هذا الإجراء.",
+  "deletePasswordConfirmation": "هل أنت متأكد أنك تريد حذف كلمة المرور هذه؟",
+  "deleteBookmarkConfirmation": "هل أنت متأكد أنك تريد حذف هذا الرابط؟",
+  "deletePhotoConfirmation": "هل أنت متأكد أنك تريد حذف هذه الصورة؟",
+  "deleteDocumentConfirmation": "هل أنت متأكد أنك تريد حذف هذا المستند؟",
+  "requiredField": "هذا الحقل مطلوب.",
+  "invalidEmail": "البريد الإلكتروني غير صالح.",
+  "invalidPassword": "كلمة المرور غير صالحة.",
+  "invalidInput": "البيانات المدخلة غير صالحة.",
+  "nothingFound": "لم يتم العثور على شيء",
+  "somethingWentWrong": "حدث خطأ ما.",
+  "unableToSave": "تعذر حفظ البيانات.",
+  "unableToDelete": "تعذر حذف البيانات.",
+  "unableToOpen": "تعذر فتح العنصر.",
+  "permissionDenied": "تم رفض الإذن.",
+  "storageError": "حدث خطأ في التخزين.",
+  "encryptionError": "حدث خطأ أثناء التشفير.",
+  "decryptionError": "حدث خطأ أثناء فك التشفير.",
+  "vaultDescription": "خزّن جميع بياناتك في مكان واحد، من الإيميلات وكلمات المرور إلى الملفات والصور.",
+  "googleDriveBackup": "احفظ نسخة احتياطية من بياناتك على Google Drive واستعدها عند الحاجة.",
+  "privateVault": "خزنتك الخاصة التي تمنحك مكانًا آمنًا لحفظ بياناتك، وتعمل بدون اتصال بالإنترنت.",
+  "secureOfflineStorage": "تخزين محلي آمن",
+  "protectedByEncryption": "محمي بالتشفير",
+  "allYourDataIsEncrypted": "جميع بياناتك محفوظة بشكل مشفر."
+,
+  "@sectionUploadedSuccessfully": {"placeholders": {"section": {"type": "String"}}},
+  "@sectionDownloadedSuccessfully": {"placeholders": {"section": {"type": "String"}}},
+  "@noCloudSectionData": {"placeholders": {"section": {"type": "String"}}}
+}

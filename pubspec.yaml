@@ -1,0 +1,114 @@
+
+name: keeply
+description: A secure offline-first personal security vault.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  convert: ^3.1.2
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.6
+  provider: ^6.1.5
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.2.4
+
+  # Encryption
+  encrypt: ^5.0.3
+  crypto: ^3.0.6
+
+  # Authentication
+  local_auth: ^2.3.0
+
+  # File Management
+  file_picker: ^8.3.7
+  archive: ^4.0.7
+  open_filex: ^4.7.0
+  syncfusion_flutter_pdfviewer: ^33.2.13
+
+  # Image Compression
+  flutter_image_compress: ^2.4.0
+
+  # Gallery
+  gal: ^2.3.3
+
+  # Sharing
+  share_plus: ^12.0.2
+
+  # Google Drive
+  google_sign_in: ^6.2.2
+  googleapis: ^14.0.0
+  googleapis_auth: ^2.0.0
+  http: ^1.5.0
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+
+  # Utilities
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  url_launcher: ^6.3.2
+
+  # Icons
+  lucide_icons_flutter: ^3.1.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    
+    - assets/icons/
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/tajawal/Tajawal-ExtraLight.ttf
+          weight: 200
+
+        - asset: assets/fonts/tajawal/Tajawal-Light.ttf
+          weight: 300
+
+        - asset: assets/fonts/tajawal/Tajawal-Regular.ttf
+          weight: 400
+
+        - asset: assets/fonts/tajawal/Tajawal-Medium.ttf
+          weight: 500
+
+        - asset: assets/fonts/tajawal/Tajawal-Bold.ttf
+          weight: 700
+
+        - asset: assets/fonts/tajawal/Tajawal-ExtraBold.ttf
+          weight: 800
+
+        - asset: assets/fonts/tajawal/Tajawal-Black.ttf
+          weight: 900
+
+# =============================================================================
+# App Launcher Icon
+# =============================================================================
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/app_icon.png"
+  min_sdk_android: 21
