@@ -1,116 +1,92 @@
 # Keeply
 
-Keeply is a Flutter application for managing personal passwords, bookmarks, media, documents, and folders in one local vault.
+Keeply is a Flutter application for managing passwords, bookmarks, media, documents, and folders in one local vault.
 
-The application is designed to work primarily with locally stored data, with Google Drive integration available for backup and restore.
+The application is designed around local storage, with optional Google Drive integration for backup and restore.
 
-> **Current testing:** Keeply has currently been tested on **Android**. Other platforms are included in the Flutter project configuration, but their functionality has not been fully tested and should not be considered verified.
-
----
-
-## Features
-
-### 🔐 PIN-protected vault
-
-Keeply uses a PIN-based authentication flow to protect access to the vault.
-
-The PIN is securely stored and verified using a password-based key derivation process.
+> **Testing status:** Keeply has currently been tested on Android. Other platforms are included in the Flutter project but have not been fully verified.
 
 ---
 
-### 🔑 Passwords
+## 📸 Screenshots
 
-The vault allows users to store password entries containing:
+<p align="center">
+  <img src="screenshots/vault.webp" width="250" alt="Vault Screen" />
+  <img src="screenshots/passwords.webp" width="250" alt="Passwords Screen" />
+  <img src="screenshots/bookmarks.webp" width="250" alt="Bookmarks Screen" />
+</p>
 
-* Username / email
+<p align="center">
+  <img src="screenshots/media.webp" width="250" alt="Media Screen" />
+  <img src="screenshots/files.webp" width="250" alt="Files Screen" />
+  <img src="screenshots/backup.webp" width="250" alt="Backup Screen" />
+</p>
+
+<p align="center">
+  <img src="screenshots/settings.webp" width="250" alt="Settings Screen" />
+</p>
+
+---
+
+## ✨ Features
+
+### 🔐 PIN-Protected Vault
+
+* PIN-based authentication
+* Secure storage for authentication-related data
+* Local vault access without requiring an internet connection
+
+### 🔑 Password Management
+
+Store and manage:
+
+* Username or email
 * Password
-* Description / notes
+* Notes
 
-Password entries can be:
-
-* Added
-* Edited
-* Deleted
-* Hidden or revealed
-* Copied to the clipboard
-
----
+Users can add, edit, delete, hide, reveal, and copy password entries.
 
 ### 🔗 Bookmarks
 
-Keeply includes a bookmark manager for storing website links.
-
-Bookmarks support:
+Save and manage website bookmarks with:
 
 * URL
 * Description
 * Creation date
 * Last updated date
 
-Users can:
-
-* Add bookmarks
-* Edit bookmarks
-* Delete bookmarks
-* Open saved URLs
-* Copy URLs
-
 URLs are validated and normalized before being stored.
 
----
+### 🖼️ Media Management
 
-### 🖼️ Media
+* Import one or multiple media files
+* Preview and open media
+* Share media
+* Save supported media to the device gallery
+* Delete media
 
-Keeply can import media files and manage them from inside the application.
+Media metadata and imported files are stored locally.
 
-The media functionality includes:
+### 📁 Files & Folders
 
-* Importing one or multiple files
-* Previewing images
-* Opening media
-* Sharing media
-* Saving supported media to the device gallery
-* Deleting media
-
-Media metadata is stored locally, while the imported media files are stored in the application's local storage.
-
----
-
-### 📁 Files and folders
-
-Keeply provides a file manager with folder organization.
-
-Users can:
-
-* Create folders
-* Navigate between folders
-* Create nested folders
+* Create and organize folders
+* Support nested folders
 * Import multiple files
-* Open files
-* Share files
-* Delete files
-* Delete folders when allowed
+* Open and share files
+* Delete files and folders
+* Handle common document formats such as PDF, images, TXT, DOCX, XLSX, and PPTX
 
-The application contains handling for several document formats, including:
-
-* PDF
-* Images
-* TXT
-* DOCX
-* XLSX
-* PPTX
-
-PDF files can be viewed using the integrated PDF viewer.
-
-Other supported document formats have application-level handling for reading or previewing their contents where implemented. Files that require an external application can be opened through the device's available applications.
+PDF files can be viewed using the integrated PDF viewer. Other formats are handled according to the capabilities implemented for each file type and the applications available on the device.
 
 ---
 
 ## ☁️ Google Drive Backup
 
-Keeply includes Google Drive integration for backing up and restoring vault data.
+Keeply supports optional Google Drive backup and restore.
 
-The backup system stores different types of application data separately, including:
+Google Sign-In is used for authentication, while the Google Drive API is used to manage Keeply backup data.
+
+Backup data is organized by type using separate Drive files:
 
 ```text
 Keeply_Vault_
@@ -122,43 +98,34 @@ Keeply_FileMeta_
 Keeply_FileData_
 ```
 
-This separates vault records, bookmarks, folders, media metadata, media files, file metadata, and file data within Google Drive.
+Keeply uses Google's `appDataFolder` for its application-specific Drive data.
+
+Internet access is only required for Google Drive backup and restore operations.
 
 ---
 
 ## 🔄 Incremental Backup
 
-The Google Drive backup implementation compares local data with the existing cloud data.
+Keeply's backup system compares local data with existing backup data.
 
-SHA-256 hashes are used when determining whether stored data has changed.
+SHA-256 hashes are used to detect changes.
 
-The synchronization process can:
+The backup process can:
 
 * Upload new data
 * Update changed data
 * Skip unchanged data
-* Remove obsolete backup objects
+* Remove obsolete backup data
 
-Backup operations use limited concurrency, with up to three operations running at the same time.
-
-The backup process also tracks information such as:
-
-* Created items
-* Updated items
-* Skipped items
-* Deleted items
-* Examined items
-* Uploaded data size
+Backup operations use limited concurrency to avoid running too many cloud operations simultaneously.
 
 ---
 
 ## ♻️ Restore
 
-Keeply supports restoring backup data from Google Drive.
+Restore is designed to add missing backup data to the existing local vault rather than replacing the current local data.
 
-The restore process is designed to add missing data to the existing local vault rather than clearing the current local data.
-
-It can restore:
+The restore process can restore:
 
 * Password entries
 * Bookmarks
@@ -168,15 +135,15 @@ It can restore:
 * File metadata
 * File data
 
-Existing local data is kept during the restore process.
+Existing local data is preserved during restore.
 
 ---
 
 ## 💾 Local Storage
 
-Keeply uses **Hive** for local application data.
+Keeply uses **Hive** for local application storage.
 
-Separate Hive boxes are used for the main data categories:
+The main data categories are stored separately:
 
 ```text
 secure_vault_items
@@ -186,42 +153,44 @@ secure_vault_files
 secure_vault_folders
 ```
 
-The application therefore does not require an internet connection for its primary local vault operations.
-
-Internet connectivity is required for Google Drive backup and restore operations.
+The primary vault functionality works locally without an internet connection.
 
 ---
 
 ## 🔒 Security
 
-Keeply uses secure storage for authentication-related information.
+Keeply includes security-related functionality for authentication and cryptographic operations.
 
-The project also contains cryptographic functionality, including an AES-256-CBC encryption service.
+The project includes:
 
-The current application does **not** apply this encryption service to every Hive record or to Google Drive backup data.
+* PIN-based authentication
+* Secure storage
+* Password-based key derivation
+* SHA-256 hashing
+* AES-256-CBC encryption functionality
 
-Therefore, Keeply should not be described as providing fully encrypted local storage or end-to-end encrypted Google Drive backups.
+The current application does **not** apply AES encryption to every local Hive record or to Google Drive backup data.
+
+Therefore, Keeply does not currently claim to provide fully encrypted local storage or end-to-end encrypted cloud backups.
 
 ---
 
 ## 🌍 Localization
 
-Keeply currently includes:
+Keeply currently supports:
 
 * English
 * Arabic
 
-The application supports switching between the two languages.
+The interface supports both LTR and RTL layouts.
 
 Arabic uses the bundled **Tajawal** font.
-
-The interface supports the corresponding left-to-right and right-to-left layouts.
 
 ---
 
 ## 🏗️ Project Structure
 
-The project is organized into application features and shared services.
+Keeply uses a feature-based Flutter project structure:
 
 ```text
 lib/
@@ -248,34 +217,30 @@ lib/
 └── l10n/
 ```
 
-The project uses Flutter and Dart with feature-based organization.
-
 ---
 
-## 🛠️ Technologies
+## 🛠️ Tech Stack
 
-The project uses the following technologies and packages for its implemented functionality:
-
-| Technology             | Usage                                    |
-| ---------------------- | ---------------------------------------- |
-| Flutter                | Application framework                    |
-| Dart                   | Programming language                     |
-| flutter_bloc           | State management                         |
-| Provider               | Dependency/state access                  |
-| Hive                   | Local data storage                       |
-| flutter_secure_storage | Secure storage                           |
-| crypto                 | Cryptographic hashing and operations     |
-| encrypt                | AES encryption functionality             |
-| Google Sign-In         | Google authentication                    |
-| Google APIs            | Google Drive integration                 |
-| file_picker            | File selection                           |
-| archive                | Archive/document processing              |
-| Syncfusion PDF Viewer  | PDF viewing                              |
-| flutter_image_compress | Image compression                        |
-| gal                    | Gallery operations                       |
-| share_plus             | Sharing files and media                  |
-| open_filex             | Opening files with external applications |
-| url_launcher           | Opening URLs                             |
+| Technology | Purpose |
+| --- | --- |
+| Flutter | Application framework |
+| Dart | Programming language |
+| flutter_bloc | State management |
+| Provider | Dependency and state access |
+| Hive | Local storage |
+| flutter_secure_storage | Secure storage |
+| crypto | Hashing and cryptographic operations |
+| encrypt | AES encryption functionality |
+| Google Sign-In | Google authentication |
+| Google APIs | Google Drive integration |
+| file_picker | File selection |
+| archive | Archive and document processing |
+| Syncfusion PDF Viewer | PDF viewing |
+| flutter_image_compress | Image compression |
+| gal | Gallery operations |
+| share_plus | File and media sharing |
+| open_filex | Opening files with external applications |
+| url_launcher | Opening URLs |
 
 ---
 
@@ -283,105 +248,69 @@ The project uses the following technologies and packages for its implemented fun
 
 ### Requirements
 
-Install Flutter and make sure your Flutter environment is configured correctly.
+Install Flutter and configure your development environment.
 
-Then install the project dependencies:
+Get the project dependencies:
 
 ```bash
 flutter pub get
 ```
 
-Run the application with:
-
-```bash
-flutter run
-```
-
-To select a connected device:
+Check available devices:
 
 ```bash
 flutter devices
 ```
 
-Then:
+Run the application:
+
+```bash
+flutter run
+```
+
+Or specify a device:
 
 ```bash
 flutter run -d <device>
 ```
 
+Google Drive backup and restore require the appropriate Google authentication and API configuration.
+
 ---
 
 ## 📱 Testing Status
 
-### Android
+| Platform | Status |
+| --- | --- |
+| Android | ✅ Tested |
+| iOS | ⚠️ Not fully tested |
+| Windows | ⚠️ Not fully tested |
+| macOS | ⚠️ Not fully tested |
+| Linux | ⚠️ Not fully tested |
+| Web | ⚠️ Not currently verified |
 
-**Tested:** Yes
+Android is currently the primary tested platform.
 
-The current working version has been tested on Android.
-
-### iOS
-
-**Not fully tested**
-
-Although the project contains iOS configuration, the current version has not been fully tested on an iPhone. Some functionality may require additional platform-specific configuration or testing.
-
-### Windows
-
-**Not fully tested**
-
-The project contains Windows-related Flutter configuration, but the application has not been fully tested on Windows.
-
-### macOS
-
-**Not fully tested**
-
-The project contains macOS-related Flutter configuration, but the application has not been fully tested on macOS.
-
-### Linux
-
-**Not fully tested**
-
-The project contains Linux-related Flutter configuration, but the application has not been fully tested on Linux.
-
-### Web
-
-**Not the current tested target**
-
-The current application testing was performed on Android. Web functionality should not be considered verified based only on the presence of Flutter web configuration.
+Other platforms are included in the Flutter project configuration but should not be considered fully verified.
 
 ---
 
 ## 📌 Current Status
 
-Keeply is currently a working Flutter project with its primary testing focused on Android.
+Keeply is a working Flutter project with its primary testing focused on Android.
 
-The main implemented areas are:
+Current implemented areas include:
 
 * PIN-protected vault
 * Password management
 * Bookmark management
-* Local media management
+* Media management
 * File and folder management
-* Hive-based local storage
+* Local Hive storage
 * Arabic and English localization
 * Google Drive backup
 * Google Drive restore
-
-Platform-specific behavior outside Android still requires additional testing.
-
----
-
-## ⚠️ Important Notes
-
-Keeply is provided as a personal software project and its current implementation should be evaluated based on the actual source code.
-
-In particular:
-
-* Android is the currently tested platform.
-* Other Flutter platforms have not been fully verified.
-* Google Drive functionality requires the appropriate Google authentication/API configuration.
-* The encryption service exists in the project but is not applied to every stored record or Google Drive backup.
-* No claim of end-to-end encrypted cloud backup is made.
+* Incremental backup synchronization
 
 ---
 
